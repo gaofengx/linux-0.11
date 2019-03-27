@@ -1,0 +1,8 @@
+.encoding="GBK"
+config.version="8"
+guestOS="other"
+displayName="linux-0.11"
+floppy0.startConnected="TRUE"
+floppy0.fileType="file"
+floppy0.fileName="boot.img"
+memsize="4"

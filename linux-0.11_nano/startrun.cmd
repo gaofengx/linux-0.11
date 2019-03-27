@@ -1,0 +1,1 @@
+..\Bochs\bochs -q -f bochsrc.bxrc

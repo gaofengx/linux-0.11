@@ -1,0 +1,1 @@
+..\mingw-insight\bin\insight.exe

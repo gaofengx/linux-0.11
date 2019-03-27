@@ -1,0 +1,16 @@
+start_bochs.bat, then ENTER, it will display "waiting for connection on localhost:1000"
+start_insight.bat, File->Open->tools/system.exe, File->Target Settings->Remote/TCP, localhost 1000
+View->Console, Run->Run, it will run to startup_32 and wait,
+
+(gdb) break start_kernel
+Breakpoint 2 at 0x6624: file init/main.c, line 105
+
+(gdb) handle SIGSEGV noprint nostop ignore
+Signal     Stop    Print    Pass program     Description
+SIGSEGV    No      No       No               Segmentation fault
+
+(gdb) c
+Continuing
+
+Breakpoint 2, start_kernel() at init/main.c:105
+

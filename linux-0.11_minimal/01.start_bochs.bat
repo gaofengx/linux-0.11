@@ -1,0 +1,1 @@
+..\bochs\bochs.exe -f bochsrc-gdb.bxrc
